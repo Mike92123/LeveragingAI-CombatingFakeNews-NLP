@@ -14,7 +14,9 @@ Source: The primary dataset is derived from the Emergent Dataset, structured for
 Dataset Details: Comprises pairs of headlines and body texts which can originate from the same or different articles, used for classifying the stance of the body text in relation to the headline.
 ## Analysis
 Data Preprocessing and Transformation: Includes loading data, merging stances with bodies, and subsetting train data.
+
 Feature Engineering and Selection: Generating new features to capture numerical aspects in the text data and analyzing frequency distribution for different categories.
+
 Explanatory Data Analysis: Distribution of stance labels, numerical features, pairwise scatter plots, and correlation matrix.
 ## Implementing Embedding Layer
 Methods: Exploration of three pre-trained word embedding models: GloVe, FastText, and Word2Vec.
